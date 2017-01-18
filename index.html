@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Demo App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+    <!-- Path to Framework7 color related styles, iOS Theme -->
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+
+    <link rel="stylesheet" href="css/framework7-icons.css">
+
+</head>
+<body>
+<!-- Status bar overlay for fullscreen mode-->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+<!-- Left panel with reveal effect-->
+<div class="panel panel-left panel-reveal">
+    <div class="content-block">
+        <p>Left panel content goes here</p>
+    </div>
+</div>
+<!-- Right panel with cover effect-->
+<div class="panel panel-right panel-cover">
+    <div class="content-block">
+        <p>Right panel content goes here</p>
+    </div>
+</div>
+<!-- Views-->
+<div class="views">
+    <!-- Your main view, should have "view-main" class-->
+    <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+            <div class="navbar-inner  bg-lightblue">
+                <div class="left">
+                    <a href="#"  data-panel="left" class="link icon-only open-panel">
+                        <i class="icon icon-bars  color-white"></i>
+                    </a>
+                </div>
+                <div class="center sliding  color-white"></div>
+                <div class="right">
+                    <a href="#" class="link icon-only open-panel"  data-panel="right" >
+                        <i class="f7-icons color-white">gear</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+            <!-- Index Page-->
+            <div data-page="index" class="page">
+                <div class="page-content" style="padding-bottom: 0">
+                    <div class="card mar_0" style="background: #7ccc9d">
+                        <div class='row pad_10'>
+                            <div class="col-33 ">
+                                <div class="chip f_r">
+                                    <div class="chip-label"> 123</div>
+                                </div>
+                                <div class="chip_bot t_r color-white">Messages</div>
+                            </div>
+                            <div class="col-33 pad_10">
+                                <div class="imgBox">
+                                    <img src="image/me.jpg" alt="" width="80px">
+                                </div>
+                            </div>
+                            <div class="col-33 ">
+                                <div class="chip f_l">
+                                    <div class="chip-label">556116</div>
+                                </div>
+                                <div class="chip_bot color-white" style="margin-left: 12px">Following</div>
+                            </div>
+                        </div>
+
+                        <div class="t_c user pad_10">
+                            <div class="color-white name">杀生丸</div>
+                        </div>
+                        <div class="card-content" style="background: #c6eca0">
+                            <div class="card-content-inner">This is simple card with plain text. But card could contain its own header, footer, list view, image, and any elements inside.</div>
+                        </div>
+                    </div>
+                    <!--data-template="about" data-context-name="about"-->
+                    <div class="nav_box bg-white">
+                        <div class="row bg-white">
+                            <div class="nav_list">
+                                <a href="OrderList.html" class="link icon-only">
+                                    <i class="f7-icons">favorites</i>
+                                </a>
+                            </div>
+                            <div class="nav_list">
+                                <a href="#" class="link icon-only">
+                                    <i class="f7-icons">radio</i>
+                                </a>
+                            </div>
+                            <div class="nav_list">
+                                <a href="#" class="link icon-only">
+                                    <i class="f7-icons">graph_round</i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row bg-white">
+                            <div class="nav_list">
+                                <a href="#" class="link icon-only">
+                                    <i class="f7-icons">flag</i>
+                                </a>
+                            </div>
+                            <div class="nav_list">
+                                <a href="#" class="link icon-only">
+                                    <i class="f7-icons">bell</i>
+                                </a>
+                            </div>
+                            <div class="nav_list">
+                                <a href="#" class="link icon-only">
+                                    <i class="f7-icons">pie</i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row bg-white">
+                            <div class="nav_list">
+                                <a href="#" class="link icon-only">
+                                    <i class="f7-icons">money_yen</i>
+                                </a>
+                            </div>
+                            <div class="nav_list">
+                                <a href="#" class="link icon-only">
+                                    <i class="f7-icons">today</i>
+                                </a>
+                            </div>
+                            <div class="nav_list">
+                                <a href="#" class="link icon-only">
+                                    <i class="f7-icons">more</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Path to Framework7 Library JS-->
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<script src="js/template.js"></script>
+<!-- Path to your app js-->
+<script type="text/javascript" src="js/my-app.js"></script>
+<script src="js/router.js"></script>
+</body>
+</html>

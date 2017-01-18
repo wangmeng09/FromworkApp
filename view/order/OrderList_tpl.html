@@ -1,0 +1,21 @@
+{{#each OrderList}}
+<li class="item-content">
+    <div class="item-media">
+        <a href="{{OrderList.id}}">
+            <img src="image/1.jpg" width="44">
+        </a>
+    </div>
+    <div class="item-inner">
+        <div class="item-title-row">
+            <div class="item-title w_100">
+                <a href="{{OrderList.id}}"  style="color:#6d6d72;">
+                   {{OrderList.title}}&nbsp;&nbsp; ›
+                </a>
+
+                <span class="endOrder">{{OrderList.sta}}</span>
+            </div>
+        </div>
+        <div class="item-subtitle color-gray" style="font-size: 12px">{{OrderList.time}}</div>
+    </div>
+</li>
+{{/each}}

@@ -1,0 +1,106 @@
+.card-footer .row{
+    width: 100%;
+}
+.mar_b{
+    margin-bottom: 10px;
+}
+.mar_0{
+    margin: 0;
+}
+.pad_10{
+    padding: 10px;
+}
+.f_r{
+    float: right;
+}
+.t_r{
+    text-align: right;
+}
+.t_c{
+    text-align: center;
+}
+.f_l{
+    float: left;
+}
+.t_l{
+    text-align: left;
+}
+.mar_0 .card-content-inner{
+    padding: 20px 25px;
+}
+.imgBox{
+    border: 3px solid #fff;
+    padding: 5px;
+    border-radius: 50%;
+    width: 80px;height: 80px;
+}
+.imgBox img{
+    border-radius: 50%;
+}
+.imgBox:after{
+    content: "";
+    display: block;
+    border: 3px solid #c5c5c5;
+    padding: 5px;
+    border-radius: 50%;
+    width: 94px;height: 94px;
+    margin-top: -100px;
+    margin-left: -15px;
+}
+.w_100{
+    width: 100%;
+}
+.align-center{
+    text-align: center;
+}
+.endOrder{
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    float: right;
+}
+.tab .item-inner{
+    height: 56px;
+}
+.tab .item-content{
+    background: #fff;
+    margin-bottom: 10px;
+}
+.back_t{
+    background: transparent;
+}
+.col-33 .chip{
+    margin-top: 25px;
+    margin-right: 16px;
+    border-radius: 16px;
+}
+.col-33 .f_l{
+    margin-left: 12px;
+}
+.chip_bot{
+    margin-top: 50px;
+}
+.user .name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+.nav_box .row .nav_list{
+    width: 33.33%;
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    box-sizing: border-box;
+    float: left;
+    height: 115px;
+    line-height: 115px;
+    text-align: center;
+    color: #5ac8fa;
+}
+.nav_list a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.row .nav_list:last-of-type{
+    border-right: none;
+}
